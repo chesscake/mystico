@@ -256,13 +256,12 @@ label reply_eternalkingdom1:
             ri "That's the book the musical was based on."
             ri "It's a collection of short stories written by __, published after his disappearance."
         "YES. I'm in an online fanclub and I've watched the musicals!":
-            award heart ri
             ri "Wow! Amazing!"
-            ri "Ah, er... by any chance have you seen moonchild8?"
+            ri "Ah, er... by any chance have you seen moonchild8?" 
             ri "If you have, that's me, eheh. "
     ri "But... That chat had me thinking about something..."
     ri "There's rumors the Eternal Kingdom story is actually incomplete."
     ri "If that's true I wonder what the original ending was supposed to be..."
-    ri "What if beneath that sweet ending it was all meant to be a tragedy?"
+    ri "What if beneath that happy ending it was all meant to be a tragedy?"
 
     return
