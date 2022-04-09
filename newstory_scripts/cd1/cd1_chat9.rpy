@@ -103,60 +103,59 @@ label cd1_chat9():
             y "Jaehee you sound exactly like my girl classmates comparing male idols lolol"
             ja "A, anyway..."
             y "lolol"
-        y "I wouldn't take it seriously."
-        y "Lately he's been joking like that a lot."
-        y "Dark humor goes around a lot these days too."
-        y "My classmates make jokes like that too,"
-        y "how their parents are going to kill them if they don't get an A"
-        y "or they're about to die from all the homework."
-        ja "I see..."
-        menu:
-            "He called Jaehee a robot but she's still worried about him! She's so kind.":
-                award heart ja
-                ja "Why, thank you..."
-                ja "Honestly, I've been hearing that so often I forgot about it."
-                ja "It's nice to hear a compliment from someone..."
-            "I don't think your classmates jokes should be shrugged off either.":
-                award heart ri
-                ja "Indeed."
-                ja "There's truth in comedy, as the saying goes."
-                y "And sometimes jokes are just that, jokes."
-                y "I know how demanding the entrance exams are,"
-                y "but no one's going to actually die...!"
-            "I want to know where this agency is... Maybe I could find my dream guy there.":
-                y "?!?!"
-                ja "I presume you're assuming it's a modeling agency."
-                ja "But we're not sure of that yet, are we?"
-                y "what if he's been working on modeling gigs all this time"
-                y "secretly plotting to overtake Zen lol"
-                y "That's why he's so secretive about his job."
-                ja "Impossible."
-                ja "There's more to Zen than good looks, he's a fully fledged actor! A master of the performer arts. A model doesn't compare nor will ever replace him. Not only his acting easily bests these of Hollywoob actors, his singing is bar none "
-                y "I wasn't serious;;"
-                ja "If it's any other kind of talent agency, I'm still certain his singing won't be as good as Zen and what about his acting? Acting is the most important quality of an actor and Zen excels at it! It took years and years to reach that level"
-                y "Jaehee, breathe ;;"
-                y "No one's going to steal Zen's career."
-                y "Rika wouldn't let anyone do that."
-        y "Arg, you know..."
-        y "I'd love to stay here and talk more"
-        y "but I'm about to arrive to cram school."
-        y "I really need to leave now, sorry!"
+    y "I wouldn't take it seriously."
+    y "Lately he's been joking like that a lot."
+    y "Dark humor goes around a lot these days too."
+    y "My classmates make jokes like that too,"
+    y "how their parents are going to kill them if they don't get an A"
+    y "or they're about to die from all the homework."
+    ja "I see..."
+    menu:
+        "He called Jaehee a robot but she's still worried about him! She's so kind.":
+            award heart ja
+            ja "Why, thank you..."
+            ja "Honestly, I've been hearing that so often I forgot about it."
+            ja "It's nice to hear a compliment from someone..."
+        "I don't think your classmates jokes should be shrugged off either.":
+            award heart ri
+            ja "Indeed."
+            ja "There's truth in comedy, as the saying goes."
+            y "And sometimes jokes are just that, jokes."
+            y "I know how demanding the entrance exams are,"
+            y "but no one's going to actually die...!"
+        "I want to know where this agency is... Maybe I could find my dream guy there.":
+            y "?!?!"
+            ja "I presume you're assuming it's a modeling agency."
+            ja "But we're not sure of that yet, are we?"
+            y "what if he's been working on modeling gigs all this time"
+            y "secretly plotting to overtake Zen lol"
+            y "That's why he's so secretive about his job."
+            ja "Impossible."
+            ja "There's more to Zen than good looks, he's a fully fledged actor! A master of the performer arts. A model doesn't compare nor will ever replace him. Not only his acting easily bests these of Hollywoob actors, his singing is bar none "
+            y "I wasn't serious;;"
+            ja "If it's any other kind of talent agency, I'm still certain his singing won't be as good as Zen and what about his acting? Acting is the most important quality of an actor and Zen excels at it! It took years and years to reach that level"
+            y "Jaehee, breathe ;;"
+            y "No one's going to steal Zen's career."
+            y "Rika wouldn't let anyone do that."
+    y "Arg, you know..."
+    y "I'd love to stay here and talk more"
+    y "but I'm about to arrive to cram school."
+    y "I really need to leave now, sorry!"
 
-        exit chatroom y
+    exit chatroom y
+    menu:
+        "Aannd off he goes. He's really dedicated, haha":
+            award heart y
+            ja "Yes, he is."
+            ja "I hope his exams go well."
+        "I think you should sit out on this one. You don't need to know the private lives of the members.":
+            ja "I guess so."
+    ja "Anyway, I will leave too."
+    ja "Take care, [name]."
 
-        menu:
-            "Aannd off he goes. He's really dedicated, haha":
-                award heart y
-                ja "Yes, he is."
-                ja "I hope his exams go well."
-            "I think you should sit out on this one. You don't need to know the private lives of the members.":
-                ja "I guess so."
-        ja "Anyway, I will leave too."
-        ja "Take care, [name]."
+    exit chartoom ja
 
-        exit chartoom ja
-
-        return
+    return
 
 label cd1_chat9_expired():
 

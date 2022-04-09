@@ -131,7 +131,7 @@ label cd1_chat1():
     ri "it's time for me to sleep too."
     menu:
         "Good Night, Rika!":
-            award ri heart
+            award heart ri
             ri "Good night, [name]!"
         "I'm not sleepy yet! Can I call someone at 3 am?":
             ri "You can do anything you want, [name]."

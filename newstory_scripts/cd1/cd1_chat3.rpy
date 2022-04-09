@@ -335,7 +335,7 @@ label reply_wine:
             ju "Not all of us can have good taste, unfortunately."
     ju "Anyway, I need to think of the perfect gift that will expand C&R bussines further."
     ju "What if every household on Earth could have our brand?"
-    ju "I wonder if such goal is attainable...?" #the answer is MEOW POX!!
+    ju "I wonder if such goal is attainable...?" #the answer is MEOW POX!! /jk
 
 
     return

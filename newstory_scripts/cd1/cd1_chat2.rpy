@@ -1,5 +1,7 @@
 label cd1_chat2():
 
+    $ ri.status = "You can send your party guest suggestions to either me or [name] ^^"
+
     scene night
 
     enter chatroom z
@@ -29,7 +31,7 @@ label cd1_chat2():
     msg z "Hey." sser2 big xbold
     z "{image=zen_angry}" (img=True)
     z "I'm sorry, there was a mistake."
-    z "I meant it for all the {u}hardworking girls{/u} in here. {b}Not you.{/b}" #if player is not female, this line is still the same but he's emphasizing Rika & Jaehee.
+    z "I meant it for all the {u}hardworking girls{/u} in here. {b}Not you.{/b}" #if player didn't choose she/her, add "And <name>." befor "Not you."
     msg s "Aw, don't be like that." cloud_m
     msg s "I was in the audience."
     z "Huh? You were?"
@@ -47,7 +49,7 @@ label cd1_chat2():
         "Newsflash! The world doesn't revolve around you!":
             break heart s
             s "O...okay? ;-;"
-            z "She's right." #change pronouns here
+            z "She's right." #change pronouns here accordingly (they're customizable)
             s "Arghh I know, I know!"
             s "{image=seven_cry}" (img=True)
         "I wish Rika invited me to go to musicals too.":
@@ -256,12 +258,13 @@ label reply_eternalkingdom1:
             ri "That's the book the musical was based on."
             ri "It's a collection of short stories written by __, published after his disappearance."
         "YES. I'm in an online fanclub and I've watched the musicals!":
+            award heart ri
             ri "Wow! Amazing!"
-            ri "Ah, er... by any chance have you seen moonchild8?" 
+            ri "Ah, er... by any chance have you seen moonchild8?"
             ri "If you have, that's me, eheh. "
     ri "But... That chat had me thinking about something..."
     ri "There's rumors the Eternal Kingdom story is actually incomplete."
     ri "If that's true I wonder what the original ending was supposed to be..."
-    ri "What if beneath that happy ending it was all meant to be a tragedy?"
+    ri "What if beneath that sweet ending it was all meant to be a tragedy?"
 
     return

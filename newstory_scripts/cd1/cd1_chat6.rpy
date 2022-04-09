@@ -1,158 +1,122 @@
 label cd1_chat6():
-###MISSING MC REPLIES
-    scene night
 
-    enter chatroom s
-    s "NO WAY!"
-    s "I can't believe I missed out on Jumin's robot opening a chatroom on her own!"
-    s "Technology is amazing!! So cool >_<"
-    s "Jumin, if you see this,"
-    s "tell me where you ordered it!"
-    s "I want one too!!"
-    s "Then I could teach her how to hack"
-    s "and split my workload in half."
-    s "{image=seven_huff}" (img=True)
-    s "Speaking of which"
-    s "I need to leave for an urgent short day trip for work."
-    s "I won't be here for awhile..."
-    s "This came in short notice so I'm super super sorry"
-    s "{image=seven_cry}" (img=True)
-    s "However!"
-    s "If all goes well"
-    s "it will only be a few days"
-    s "so no worries I will return in time for the party★!!"
-    s "In the meantime"
-    s "maybe the party coordinators 1 & 2 can rely on my assistant"
-    s "in case there's a bug!?!"
-    s "I coded this app pretty well though~ so good luck~ finding one~ ♥♥♥"
-    s "I will drop her contact via text msg anyway lol"
-    s "Rika and [name] remember to check your inbox!"
-    s "If all goes badly though"
-    s "I might not return in time for the party"
-    s "or like ever."
-    s "As in"
-    s "forever?"
-    s "which might be kind of an issue"
-    s "now that I think about it."
-    s "In this case..."
-    s "[name], how much do you know about python and node.js!?"
-    s "wait no!"
-    s "Maybe it's better to write here my will, just in case."
-    s "To Zen,"
-    s "I leave you my Best of Cat Memes for Cat Lovers account with 36k subscribers."
-    s "I'm sure you won't disappoint all those followers when you take over!!"
-    s "To Yoosung,"
-    s "I leave you my collection of wigs and costumes."
-    s "You never know when you might need to leave the country and forge a new identity"
-    s "to run away from crippling college debt?!"
-    s "To Jaehee,"
-    s "I will leave my tool kit box ready for you!"
-    s "handy for when you might need to repair yourself lolol"
-    s "lolololol"
-    s "lolololo"
-    s "oh no, I started laughing out loud and"
-    s "the madam gave me a death glare"
-    s "and barked `what the hell is so funny´ at me ;;"
-    s "shivers ;;;"
-    s "Of course this is all a big joke! It's just a boring business trip!!"
-    s "like the one Jumin does, yeah!! Nothing out of the ordinary here"
-    s "I will come back in time."
-    s "..."
+    $ y.status = "Busy with school..."
 
-    return
+    scene noon
+    play music silly_smile_again
 
-label cd1_chat5_expired():
 
-    scene night
+    enter chatroom y
 
-    enter chatroom s
-    s "NO WAY!"
-    s "I can't believe I missed out on Jumin's robot opening a chatroom on her own!"
-    s "Technology is amazing!! So cool >_<"
-    s "Jumin, if you see this,"
-    s "tell me where you ordered it!"
-    s "I want one too!!"
-    s "Then I could teach her how to hack"
-    s "and split my workload in half."
-    s "{image=seven_huff}" (img=True)
-    s "Speaking of which"
-    s "I need to leave for an urgent short day trip for work."
-    s "I won't be here for awhile..."
-    s "This came in short notice so I'm super super sorry"
-    s "{image=seven_cry}" (img=True)
-    s "However!"
-    s "If all goes well"
-    s "it will only be a few days"
-    s "so no worries I will return in time for the party★!!"
-    s "In the meantime"
-    s "maybe the party coordinators 1 & 2 can rely on my assistant"
-    s "in case there's a bug!?!"
-    s "I coded this app pretty well though~ so good luck~ finding one~ ♥♥♥"
-    s "I will drop her contact via text msg anyway lol"
-    s "Rika and [name] remember to check your inbox!"
-    s "If all goes badly though"
-    s "I might not return in time for the party"
-    s "or like ever."
-    s "As in"
-    s "forever?"
-    s "which might be kind of an issue"
-    s "now that I think about it."
-    s "In this case..."
-    s "[name], how much do you know about python and node.js!?"
-    s "wait no!"
-    s "Maybe it's better to write here my will, just in case."
-    s "To Zen,"
-    s "I leave you my Best of Cat Memes for Cat Lovers account with 36k subscribers."
-    s "I'm sure you won't disappoint all those followers when you take over!!"
-    s "To Yoosung,"
-    s "I leave you my collection of wigs and costumes."
-    s "You never know when you might need to leave the country and forge a new identity"
-    s "to run away from crippling college debt?!"
-    s "To Jaehee,"
-    s "I will leave my tool kit box ready for you!"
-    s "handy for when you might need to repair yourself lolol"
-    s "lolololol"
-    s "lolololo"
-    s "oh no, I started laughing out loud and"
-    s "the madam gave me a death glare"
-    s "and barked `what the hell is so funny´ at me ;;"
-    s "shivers ;;;"
-    s "Of course this is all a big joke! It's just a boring business trip!!"
-    s "like the one Jumin does, yeah!! Nothing out of the ordinary here"
-    s "I will come back in time."
-    s "..."
-
-    return
-
-######____TEXT MESSAGES____
-
-label after_cd1_chat5:
-
-    compose text s:
-        s "Here is his phone number, the codename is Vanderwood."
-        s "(phone number)"
-        s "I left him a private repository of the app's code along with some notes."
-        s "He can do several other things besides maintenance and patching bugs by the way."
-        s "Cleaning, medical assistance and even personal defense. If there's any emergency, he's your guy."
-        label reply_vanderwoodphonenumber
-
-    return
-
-label reply_vanderwoodphonenumber:
+    y " Teacher gave us a 10 minute break in class"
+    msg y "Finally, he rambled on for so long ;;" sigh_m
+    y "It wasn't even related to the material for the exam!!"
+    y "It was like"
+    msg y "~Kids these days don't know how good they have it~" ser2
+    msg y "~Back when I was young we didn't have those fancy calculators~" ser2
+    msg y "Argh" spike_s
+    msg y "Of course it wasn't just 5 minutes of complaining" blocky
+    msg y "He began to throw his entire life story at us." blocky
+    y "Mr. Lee, it's not our fault"
+    y "you didn't have any electricity growing up"
+    y "with 6 other siblings!!"
+    msg y "Just do your job, we have an exam in 4 days!!" sigh_m
     menu:
-        "Codename?":
-            s "Don't ask. Just let him do the job if you need him, okay?"
-        "How about food delivery?":
-            s "Sure, why not?"
-            s "It will annoy the heck out of him but he'll do it, enjoy~"
-        "I will only call him if he's hot.":
-            s "Oh my god?!?"
-            s "Did I accidentally step in in one of these High School movies?"
-            s "Uuh, he has a pretty good looking face, brown eyes, long eyelashes..."
-            s "A shame about everything else ;;"
-            s "Don't tell him I told you any of this though... He will kill me. Twice if needed."
-        "Are you really going to be okay?"
-            s "I have everything ready if the worst case scenario happens-"
-            s "It's all going to be fine."
+        "Stop whinning, this app is to organize parties.":
+            break heart y
+            y "Rika told us we can use this app to chat like friends too..."
+        "Who's Mr. Lee?":
+            y "My math teacher."
+            y "Please don't tell me..."
+            y "That you are thinking of inviting him to the party?!"
+        "An exam in 4 days? Good luck!!":
+            award heart y
+            y "Thank you!"
+    y "I went through"
+    y "every math assignment already,"
+    y "every math problem in the book!!"
+    y "But I still don't think it's good enough..."
+    y "I need more!"
+    y "I can't afford to screw up."
+    msg y "{size=+5}I have to make Rika happy.{/size}" glow
+    msg y "I can't let her down." ser1
+    menu:
+        "That's a noble goal!":
+            award heart ri
+            award heart y
+            y "Thank you, [name]!!"
+            y "You're making me even more motivated!"
+        "It's ok to take a break.":
+            y "No time for breaks!!"
+            y "The more I study the less room for mistakes there is."
+    #add shake and delay
+    y "Ugh!"
+    y "My classmates are calling me."
+    msg y "I wonder what it is this time?" curly
+    y "I already told them I don't have time to hang out."
+    y "After the exams are over I will be busy again"
+    y "helping Rika with the party..."
+    menu:
+        "Run along and take a good rest after your exams! I will help Rika out!":
+            award heart ri
+            award heart y
+            y "You're so kind"
+            y "No wonder you and Rika are friends."
+            y "But I want to help too!"
+            y "This party is so important to her..."
+        "You're such a nerd lol":
+            y "I have to in order to get into a good university!"
+        "That's right, this is no time to mess around.":
+            award heart y
+            y "You got it!"
+    y "Well then,"
+    y "See you later, [name]!"
+    exit chatroom y
 
     return
+
+label cd1_chat6_expired():
+
+
+    $ y.status = "Busy with school..."
+
+    scene noon
+    play music silly_smile_again
+
+
+    enter chatroom y
+
+    y " Teacher gave us a 10 minute break in class"
+    msg y "Finally, he rambled on for so long ;;" sigh_m
+    y "It wasn't even related to the material for the exam!!"
+    y "It was like"
+    msg y "~Kids these days don't know how good they have it~" ser2
+    msg y "~Back when I was young we didn't have those fancy calculators~" ser2
+    msg y "Argh" spike_s
+    msg y "Of course it wasn't just 5 minutes of complaining" blocky
+    msg y "He began to throw his entire life story at us." blocky
+    y "Mr. Lee, it's not our fault"
+    y "you didn't have any electricity growing up"
+    y "with 6 other siblings!!"
+    msg y "Just do your job, we have an exam in 4 days!!" sigh_m
+    y "I went through"
+    y "every math assignment already,"
+    y "every math problem in the book!!"
+    y "But I still don't think it's good enough..."
+    y "I need more!"
+    y "I can't afford to screw up."
+    msg y "{size=+5}I have to make Rika happy.{/size}" glow
+    msg y "I can't let her down." ser1
+    y "Anyway, my classmates are calling me."
+    msg y "I wonder what it is this time?" curly
+    y "I already told them I don't have time to hang out."
+    y "After the exams are over I will be busy"
+    y "helping Rika with the party..."
+    y "Well then,"
+    y "I hope everyone is keeping up to date with their responsibillities."
+    y "See you all later."
+    exit chatroom y
+
+    return
+
+#"gacha? not even once!" filler chat, maybe on day 2 or 3
