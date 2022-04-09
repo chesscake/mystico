@@ -56,7 +56,7 @@ label cd1_chat9():
     msg y "all united for a single cause!!" round_m
     #yoosung smile emoji
     y "I think"
-    msg y "{size=+10}Rika is living proof that angels exist!{/size}" sser1 #big emphasis
+    msg y "{size=+10}Rika is living proof that angels exist!{/size}" #big emphasis
     msg y "Don't you breathe better whenever she's in chats, Jaehee?!"
     ja "Well, I..."
     ja "I didn't meet her in person yet."
@@ -153,7 +153,7 @@ label cd1_chat9():
     ja "Anyway, I will leave too."
     ja "Take care, [name]."
 
-    exit chartoom ja
+    exit chatroom ja
 
     return
 
@@ -195,7 +195,7 @@ label cd1_chat9_expired():
     msg y "Yup!" cloud_s
     msg y "Rika is so amazing! Thanks to her we're all gathered together like this!"
     msg y "Persons from all walks of life I've never thought I could meet." round_m
-    msg "All united for a single cause!!"
+    msg y "All united for a single cause!!"
     #yoosung smile emoji
     y "I think"
     msg y "{size=+10}She is living proof that angels exist!{size}" sser1 #big emphasis
