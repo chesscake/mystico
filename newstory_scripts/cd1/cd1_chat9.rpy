@@ -85,7 +85,7 @@ label cd1_chat9():
     y "And he's now working at some agency."
     y "I haven't been paying much attention, sorry."
     ja "Since you were at the first party you might know more."
-    ja "I'm curious about this agency place... could it be an high risk job?"
+    ja "I'm curious about this agency place... could it be a high risk job?"
     menu:
         "His last chat was a bit disconcerting.":
             award heart s
@@ -125,7 +125,7 @@ label cd1_chat9():
             y "but no one's going to actually die...!"
         "I want to know where this agency is... Maybe I could find my dream guy there.":
             y "?!?!"
-            ja "I presume you're assuming it's a modeling agency."
+            ja "You're assuming it's a modeling agency."
             ja "But we're not sure of that yet, are we?"
             y "what if he's been working on modeling gigs all this time"
             y "secretly plotting to overtake Zen lol"
