@@ -1,12 +1,22 @@
 Differences from the engine to the demo:
 
+++++++++++++++++++++++++++++++++++++++++++++
+
 Brand new folders+content:
 
 game/02_newstory_addon
-game/03_guide
+game/03_guides
 game/newstory_scripts
+
+++++++++++++++++++++++++++++++++++++++++++++
 
 New files in game folder:
 
 game/newstory_route_setup.rpy
 game/start_screen.rpy
+
+++++++++++++++++++++++++++++++++++++++++++++
+
+Modified .rpy files from the engine: 
+
+game/screens_custom_route_select.rpy (modified to start in the New Story mode)
