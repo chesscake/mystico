@@ -1,0 +1,12 @@
+Differences from the engine to the demo:
+
+Brand new folders+content:
+
+game/02_newstory_addon
+game/03_guide
+game/newstory_scripts
+
+New files in game folder:
+
+game/newstory_route_setup.rpy
+game/start_screen.rpy
