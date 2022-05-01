@@ -52,8 +52,8 @@ label cd1_chat9():
     ja "Zen, me, [name] all joined after the first party..."
     msg y "Yup!" cloud_s
     msg y "Rika is so amazing! Thanks to her we're all gathered together like this!"
-    msg y "Persons from all walks of life I've never thought I could meet" round_m
-    msg y "all united for a single cause!!" round_m
+    msg y "Persons from all walks of life I've never thought I could meet"
+    msg y "all united for a single cause!!"
     #yoosung smile emoji
     y "I think"
     msg y "{size=+10}Rika is living proof that angels exist!{/size}" #big emphasis
@@ -97,7 +97,7 @@ label cd1_chat9():
         "Agency?? Like a modeling agency?":
             y "maybe lol"
             y "Maybe he's a model and he isn't telling us."
-            ja "A model? His red hair is quite striking, just like his golden doed eyes..."
+            ja "A model? His red hair is quite striking, just like his golden eyes..."
             ja "But it still doesn't compare to Zen's beauty. His long ethereal white hair and"
             y "ethereal white hair, what?? lol"
             y "Jaehee you sound exactly like my girl classmates comparing male idols lolol"

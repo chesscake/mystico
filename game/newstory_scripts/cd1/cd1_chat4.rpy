@@ -83,7 +83,7 @@ label cd1_chat4_expired():
     ja "Oh."
     v "Hi? Hello?"
     ja "Welcome to the chatroom, sir."
-    ja "I'd like to express my deepest gratitude into choosing me to work for C&R."
+    ja "I'd like to express my deepest gratitude in choosing me to work for C&R."
     ja "Mr. Han told me how your keen eye selected me among countless candidates."
     ja "Therefore, from the bottom of my heart,"
     ja "thank you."
@@ -115,7 +115,5 @@ label cd1_chat4_expired():
 
     ja "I will log off too, I have to get back to work."
     ja "I hope we can talk soon, [name]."
-
-    exit chatroom ja
 
     return

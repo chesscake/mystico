@@ -1,4 +1,4 @@
-label day_3_chatroom_5():
+label cd3_chat5():
 
     $ ja.prof_pic = "Profile Pics/Jaehee/jae-31.png"
     $ z.prof_pic = "Profile Pics/Zen/zen-35.png"
@@ -6,12 +6,12 @@ label day_3_chatroom_5():
     $ ja.cover_pic = "Cover Photos/Jaehee/ja3.png"
     $ z.cover_pic = "Cover Photos/Zen/z5.png"
 
-
+    $ ri.status = "Jaehee, I think you lent me that disc ;;;"
     $ ja.status = "Workload increased again..."
     $ z.status = "Out on a jog"
 
     scene noon
-    play music lonesome_practicalism 
+    play music lonesome_practicalism
 
     enter chatroom ja
 
@@ -32,7 +32,7 @@ label day_3_chatroom_5():
     msg ja "Wish I could stay more up to date on R.F.A matters. It is a part of my job after all" ser2
     msg ja "Said job does also require my undivided attention at all times however" bold
     msg ja "So it's no wonder I haven't been able to catch up yet" curly
-    $ is_idiot = False 
+    $ is_idiot = False
     menu:
         "Those sound like excuses to me...":
             $ is_idiot = True
@@ -79,7 +79,7 @@ label day_3_chatroom_5():
     pause 1.0*5
     msg z "Jaehee, [Name], hi! What were you guys talking about ?" glow
     msg ja "That's..umm.we were just.." sigh_m
-    msg z "Actually , I should just go and check.." 
+    msg z "Actually , I should just go and check.."
     pause 1.0*3
     msg ja "I don't think that's necessary, I could just " big
     msg z "OHHH, were you talking about my musicals??" glow
@@ -113,8 +113,8 @@ label day_3_chatroom_5():
 
     exit chatroom z
 
-    msg ja "He's gone..." sigh_m
-    msg ja "I'm thankful for the words he said. I feel a  bit more liberated now" 
+    msg ja "He's gone..." sigh_s
+    msg ja "I'm thankful for the words he said. I feel a  bit more liberated now"
     msg ja "Maybe I should try and relax while talking to you guys..." cloud_m
     if is_idiot:
         ja " I don't expect you to take my complaints seriously"
@@ -123,7 +123,7 @@ label day_3_chatroom_5():
     ja "Would you share it with me?"
     menu:
         "Please do! Talking to the members is my favorite part of being here":
-            award heart ri 
+            award heart ri
             award heart ja
             msg ja "Spoken like a true coordinator" round_s
             msg ja "I'm sure Rika would be glad to hear that"  glow
@@ -142,7 +142,7 @@ label day_3_chatroom_5():
         "I wonder what Rika is doing right now...":
             award heart ri
             ja "She's probably out there talking to a potential guest"
-            msg ja "Whatever it is, I hope she's having more fun than me" sigh_m
+            msg ja "Whatever it is, I hope she's having more fun than me" sigh_s
         "Goodbye Jaehee! Good luck with work":
             award heart ja
             ja "Thank you [name]! I appreciate it"
@@ -151,21 +151,21 @@ label day_3_chatroom_5():
 
 exit chatroom ja
 
-return 
+return
 
-label day_3_chatroom_5_expired():
+label cd3_chat5_expired():
     $ ja.prof_pic = "Profile Pics/Jaehee/jae-31.png"
     $ z.prof_pic = "Profile Pics/Zen/zen-35.png"
 
     $ ja.cover_pic = "Cover Photos/Jaehee/ja3.png"
     $ z.cover_pic = "Cover Photos/Zen/z5.png"
 
-
+    $ ri.status = "Jaehee, I think you lent me that disc ;;;"
     $ ja.status = "Workload increased again..."
     $ z.status = "Out on a jog"
 
     scene noon
-    play music lonesome_practicalism 
+    play music lonesome_practicalism
 
     enter chatroom ja
 
@@ -200,7 +200,7 @@ label day_3_chatroom_5_expired():
     pause 1.0*5
     msg z "Hi Jaehee! What were you talking about?" glow
     msg ja "That's..umm...I was just.." sigh_m
-    msg z "Actually , I should just go and check.." 
+    msg z "Actually , I should just go and check.."
     pause 1.0*3
     msg ja "I don't think that's necessary, I could just " big
     msg z "OHHH, were you talking about my musicals??" glow
@@ -224,64 +224,15 @@ label day_3_chatroom_5_expired():
 
     exit chatroom z
 
-    msg ja "He's gone..." sigh_m
-    msg ja "I'm thankful for the words he said. I feel a  bit more liberated now" 
+    msg ja "He's gone..." sigh_s
+    msg ja "I'm thankful for the words he said. I feel a  bit more liberated now"
     msg ja "Talking to the members can be a lot of fun I suppose" cloud_m
     msg ja "Maybe I should consider letting my guard down a bit..." curly
     msg ja "That is , until Mr.Han calls to remind me of my work, using this very messenger" sigh_m
-    msg ja "That's something I'll have to consider ." sigh_m
+    msg ja "That's something I'll have to consider ." sigh_s
     ja "I'll have to leave now, my break is almost over"
 
     exit chatroom ja
 
 
-return 
-
-
-    label after_day_3_chatroom_5:
-
-    compose text ja:
-        ja "I hope I didn't come off too serious in that conversation.."
-        ja "It's just that I feel a bit awkward about using this messenger is all"
-        ja "What do you think?"
-        label reply_lonesomejaehee
-
-    return
-
-    compose text z:
-        z "I didn't want to bring it up in the chatroom but.."
-        z "It was kind of exciting to see you and Jaehee talking about my musicals"
-        z "Do you want me to get you guys some merchandise lol?"
-        label reply_zenmerch
-
-    return
-
-label reply_lonesomejaehee:
-    menu:
-        "You did great! Don't be afraid to talk more in the messenger": 
-            award heart ja
-            ja "I'm glad you think of it that way" 
-            ja "Rika actually told me the same thing"
-            ja "Maybe I should take your advice to heart..."
-        "It did feel a bit awkward":
-            ja "I see. I'll definitely take that into account"
-            ja "Hope I can improve in the future"
-            ja "Wouldn't want to make anyone else feel uncomfortable"
-    ja "I'll try to be more engaging in the future"
-
-    return
-
-label reply_zenmerch:
-    menu:
-        "OMG OFFICIAL ZEN MERCH OMG OMG": 
-            award heart z
-            z "I'll take that as a yes then lol"
-            z "Consider it done. I'll bring some to the party"
-            z "Make sure you bring something to carry it all in"
-        "Please give some to Rika as well":
-            award heart ri
-            z "That's very thoughtful of you"
-            z "Rika has always  been a fan of mine, so I'm sure she'd appreciate it"
-            z "Thank you for giving me that idea!"
-
-    return
+return

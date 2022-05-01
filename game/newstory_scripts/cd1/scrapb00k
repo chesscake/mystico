@@ -1,0 +1,25 @@
+y "I remember sitting across him on the table."
+y "He ate in silence for a bit"
+y "then asked me how was school in Korea."
+y "And I could notice the surpise in his face"
+y "when I told him about my routine lol"
+ja "Why do you think he was surprised?"
+ja "His Korean is spotless, did he never study in here?"
+y "I'm... I'm not sure;;"
+msg y "Ugh, don't tell me he was such a genius he never had to work hard at school!!" sigh_l
+msg ja "One can only go so far without studying..."
+msg y "{size=+10}Right?!{/size}"
+msg y "Even if you're the biggest genius if you don't study you can't always get good grades!"
+
+#fix this later
+y "I talked a lot... now I'm about to arrive to cram school."
+msg y "These top grades won't come out of nowhere."
+msg y "I won't let you down Rika :) please watch me"
+
+exit chatroom y
+exit chatroom ja
+
+
+----
+
+Yoosung - gacha never again arc/chats

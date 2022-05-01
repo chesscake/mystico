@@ -148,6 +148,8 @@ label cd1_chat2():
 
     exit chatroom z
 
+    return
+
 label cd1_chat2_expired():
 
     scene night
@@ -262,7 +264,7 @@ label reply_eternalkingdom1:
             ri "Wow! Amazing!"
             ri "Ah, er... by any chance have you seen moonchild8?"
             ri "If you have, that's me, eheh. "
-    ri "But... That chat had me thinking about something..."
+    ri "But... That chat made me wonder..."
     ri "There's rumors the Eternal Kingdom story is actually incomplete."
     ri "If that's true I wonder what the original ending was supposed to be..."
     ri "What if beneath that sweet ending it was all meant to be a tragedy?"

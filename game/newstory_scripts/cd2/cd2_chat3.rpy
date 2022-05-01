@@ -1,4 +1,5 @@
 label cd2_chat3():
 
-
-    ri "This is a placeholder."
+    #gacha never again
+    z "chill dude, why don't you play some games"
+    y "Games?? NEVER."
