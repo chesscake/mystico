@@ -10,7 +10,6 @@ label cd2_chat5():
 
 
     ju "Good Morning."
-    ju "I am glad to see that the temp member solved the glitch problem."
     ju "I just came back from a visit to the tea museum in London before going to France."
     ju "They had several exhibits on show, several of which piqued my interest. "
     ju "I see you're here too, [name]."
@@ -147,7 +146,6 @@ label cd2_chat5_expired():
     play music urban_night_cityscape
 
     ju "Good Morning."
-    ju "I am glad to see that the temp member solved the glitch problem."
     ju "I just came back from a visit to the tea museum in London before going to France."
     ju "They had several exhibits on show, several of which piqued my interest. "
     ju "The museum consists of several smaller rooms,"
@@ -158,18 +156,8 @@ label cd2_chat5_expired():
     ju "I even saw some artifacts from Korea there."
     ju "It was an interesting place for sure."
     ju "What kinds of tea would [name] prefer? "
-    msg ju "Chamomile is V's favorite ." glow ser2
-    ju "The brochure said that chanomile has a calming effect on the stomach and helps you fall asleep."
-    ju "Mint would be Rika's favorite."
-    ju "The brochure said that it helps with respiratory issues, energises you and also freshens your breath. "
-    ju "Assistant King prefers coffee but has Black tea whenever offered. "
-    ju "The brochure said that black tea can lower cholesterol, help with coronary health and improve gut health."
-    msg ju "Green tea would be my favorite." square_m ser1
-    ju "The brochure said that green tea can improve brain function, has antioxidant properties, and has bioactive components."
-    ju "Fruit tea would be Yoosungs favorite."
-    ju "The brochure said that fruity teas can often help with your mood, has plenty of vitamins and is full of antioxidants."
-    ju "Finally, there is roiboos tea. I don't know anyone who favors that one."
-    ju "The brochure said  that roiboos can prevent diabetes,  has an effect on heart disease and may also lower the chance of cancer "
+    ju "My personal favorite is green tea"
+    ju "There is something regal about it that appeals to me" square_m
     ju "Regardless, there was something there to suit anyone's interests."
     ju "Personally , I enjoyed walking around through the tea shop part the most "
     ju "Their business strategy is amazing . Perhaps it's something we should implement at C&R."
