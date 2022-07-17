@@ -16,7 +16,7 @@ label cd2_chat10():
 
     ri "This coffee is simply delicious"
 
-    ja "It's your third cup Rika ;;;"
+    ja "That's your third cup Rika ;;;"
 
     msg ri "You're also on your third cup hehe" sser1
 
@@ -60,7 +60,9 @@ label cd2_chat10():
         "Is the coffee that good ?":
             award heart ja
             ri "I'll let Jaehee talk about this, she's the expert here heh"
-            ja "In my opinion,  yes "
+            ja "Expert? How so?"
+            ri "You seemed to really enjoy it, that's all!" ser1
+            ja "Well...in my opinion,  yes! The coffee is good "
             msg ja "The notes are subtle" glow
             msg ja "Yet there is some...bite to it" curly
             msg ja "It's wonderful" square_m
@@ -204,20 +206,6 @@ label cd2_chat10():
 
     ja "Yes, that's true "
 
-    ja "What about that new person V invited?"
-
-    ri "The introduction was a bit fast ..."
-
-    ri "I think everyone was a bit confused by it"
-
-    ja "What are your thoughts on them anyways ? "
-
-    ri "I'd...rather not comment for now "
-
-    ri "All I hope for is that they have a fun time in the R.F.A !"
-
-    ja "Yes,  I understand "
-
     ri "Anyways...Should we head out now?"
 
     ja "Just a little more...I'll need some time to ask the barista about the recipe "
@@ -321,6 +309,10 @@ label cd2_chat10_expired():
     ri "As for the quality of the coffee..."
 
     ri "I'll let Jaehee talk about that, she's the expert here heh"
+    
+    ja "Expert? How so?"
+    
+    ja "You just seemed to enjoy it a lot, that's all!" ser1
 
     ja "In my opinion,  the coffee is amazing "
 
@@ -421,20 +413,6 @@ label cd2_chat10_expired():
     ri "All us R.F.A members in one picture ^^"
 
     ja "Yes, that's true "
-
-    ja "What about that new person V invited?"
-
-    ri "The introduction was a bit fast ..."
-
-    ri "I think everyone was a bit confused by it"
-
-    ja "What are your thoughts on them anyways ? "
-
-    ri "I'd...rather not comment for now "
-
-    ri "All I hope for is that they have a fun time in the R.F.A !"
-
-    ja "Yes,  I understand "
 
     ri "Anyways...Should we head out now?"
 
