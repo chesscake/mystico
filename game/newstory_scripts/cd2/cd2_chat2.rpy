@@ -46,11 +46,11 @@ label cd2_chat2_outgoing_va:
                     award heart va
                     va "...I see. While I appreciate the offer, I don't really think I can accept your help"
                     va "Unless it's reporting a bug you encountered or something like that"
-                    va "Beyond that, our interactions are pretty limited. Thank you anyway"
+                    va "Beyond that, our interactions are supposed to be pretty limited. Thank you anyway"
                 "Are you a cat person or a dog person?":
-                    va "Is that it? Why do you need to know that? There's no reason for you to need to know that"
-                    va "I hope you didn't just call me to waste my time like this"
-                    va "However, if you really want to know....Though both are dirty, I must say I prefer cats"
+                    va "Is that it? Why do you need to know that? There's no reason for you to."
+                    va "I hope you didn't  call me just to waste my time like this"
+                    va "However, if you really want to know....Though both tend to be messy, I must say I prefer cats"
         "Not really. I just wanted to chat":
             va "Oh really? Is that all ?"
             va "Are you really that bored? Can't say I blame you though."
