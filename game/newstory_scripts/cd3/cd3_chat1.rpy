@@ -443,7 +443,7 @@ label cd3_chat1_expired():
     "Actor1" "Wow...I can't deny that the guy is talented..."
     "Actor2" "I know right? I'd hate to have to audition for the same role as him"
     "Actor1" "Shame he's so unprofessional...I mean seriously? Bringing a rando to something like this?"
-    "Actor2" "I know right? That guy he brought along was kind of weirdo don't you think? Did you see how he kept texting someone all throughout our set?"
+    "Actor2" "I know right? That guy he brought along was kind of a weirdo don't you think? Did you see how he kept texting someone all throughout our set?"
     "Actor1" "Looked pretty normal to me. Didn't really pay much attention to him. Now get on with it, we need to clean up and get out of here"
     
     return
