@@ -28,7 +28,8 @@ label cd3_chat4():
              ri "I hope I can make it just that much better for you!"
              ri "Please stay healthy and happy everyone.."
     ri "Speaking about the members.."
-    ri "I can't believe I missed Zen talking about his past musicals!"
+    ri "I just realized I missed out on talking about musicals with Zen"
+    msg ri "Guess I was too tired to think about that last night..."
     msg ri "I've been dying to talk about my thoughts on quite a few of them!" glow
     ri "What a shame..."
     ri "Zen is one us, and yet we barely get to discuss stuff like that"
@@ -55,12 +56,12 @@ label cd3_chat4():
             ri "If you get bored, feel free to leave at any time.."
             ri "Musicals aren't for everyone..."
     ri "So...I wanted to talk about my thoughts on one of the musicals in particular..."
-    ri "The Kingdom of Evolution...I remember watching it a few months back and being awestruck by it"
+    ri "The Kingdom of Evolution...I remember watching it and being awestruck"
     msg ri "Every actor played the role they were given perfectly" ser1
     ri "They all worked as one unit to bring the story to life, and they succeeded!"
     ri "I was transported to another world, with entirely different rules..."
     ri "Where the existance of magical princes and princesses was commonplace"
-    ri "It's like I was really there...on the carnation-decked balconies, climbing the spyraling staircases and being carried by the winds of time"
+    msg ri "It's like I was really there...on the carnation-decked balconies, climbing the spyraling staircases and being carried by the winds of time" glow
     ri "What would you do if you got the chance to visit such a place?"
     menu:
         "I'd love visit a world like that for a day or two":
@@ -216,7 +217,8 @@ label day_3_chatroom_4_expired():
     ri "Oh my...yet another busy day is ahead of us"
     ri "Please stay healthy and happy everyone.."
     ri "Speaking about the members.."
-    ri "I can't believe I missed Zen talking about his past musicals!"
+    ri "I just realized I missed out on talking about musicals with Zen"
+    msg ri "Guess I was too tired to think about that last night..." sigh_m
     msg ri "I've been dying to talk about my thoughts on quite a few of them!" glow
     ri "What a shame..."
     ri "Zen is one us, and yet we barely get to discuss stuff like that"
@@ -332,10 +334,12 @@ label reply_musical:
     return
 
 label cd3_chat4_vn_z():
-
-    "  " "Several months ago..."
+     
+     
     scene hallway
 
+     "" "A year ago.."
+     
     "Director" "Is everyone ready to begin?"
     "Actor1" "Where is our prince? Is he still not here? He should have been here hours ago.."
     "Director" "I have to say I did expect more from someone employed by our production company... What could be holding him up?"
@@ -380,22 +384,22 @@ label cd3_chat4_vn_z():
     pause
     scene arena
     play music mint_eye_piano
-    "Actress1" "Now all has been revealed ! Your selfish ways have stopped the world from being saved"
-    "Actress2" "That can't be true...  My prince, my savior... I can't live without him by my side."
-    "Actress1" "Can't you see you were fooled? Why won't you listen to me and see it for yourself"
-    "Actress1" "I hate princesses who just cry and wait.. We could have done so much more if it hadn't been for your sttuborn belief in your prince."
+    "Actress1" "Now all has been revealed ! The prince you were after for so long was nothing but a mirage."
+    "Actress2" "That can't be true... He has to be real! My prince, my savior... I would have never been here if it weren't for him."
+    "Actress1" "Can't you see you were fooled? He only wanted you here to take advantage of you and your power! I tried to warn you, but you wouldn't  listen."
+    "Actress1" "I hate princesses who just cry and wait.. You could have done so much more if it hadn't been for your sttuborn belief in your prince."
     "Actress2" "You're just bitter aren't you? That the prince didn't choose you? I was his choice all along, because I believed in him!"
-    "Actress1" "All this bickering is no good! The power of the royal amulets can't be wasted just like that by you two"
+    "Actress1" "Can't you see that bickering like this is exactly what he wants? If we're the ones fighting, nothing is stopping him from taking the power that lie beyond the gate of time!"
     "Actress2" "Who's to say you're not about to do the same! You're a witch after all. "
     "Actress1" "Does our friendship mean nothing to you anymore? Tell me Helena, is that what we've come to?"
     "Actress2" "Our friendship ended the moment you betrayed my prince!  Now you need to be banished from this land. Dear prince, come and save me from this wicked witch!"
-    "Actress1" "I see now that our friendship  was a mere illusion..."
+    "Actress1" "I see now that our friendship  was a mere illusion, just like your darling prince..."
     play music dark_secret
     show zen side angry at vn_right with moveinleft
-    z "When the heart of a lady calls for me , I appear! I have been reborn with your power Helena! Come to me."
-    "Actress2" "Oh my sweet prince...I've always believed in you... ."
+    z "When the heart of a lady calls for me , I appear! I have been reborn Helena! Come to me."
+    "Actress2" "Oh my sweet prince...I've always believed in you... Take me away."
     show zen side wink
-    z "Of course you have my love! Our feelings transcend all who oppose us! A great life awaits us. But first..."
+    z "Of course my love! But first..."
     show zen side upset
     z "The witch must be vanquished from this world once and for all!"
     "Narrator" "And so the witch dissapeared in a cloud of smoke, never to be seen again..."
@@ -407,7 +411,10 @@ label cd3_chat4_vn_z():
     z "Great! Thank you ! I'll take my leave then. Let's go V!"
     v "Alright Hyun. Thank you for this experience. It's been very insightfull."
     z "Goodbye everyone! Have a great rest of your week!"
-    "Actor1" "And he leaves just like that..."
-    "Actor2" "As expected. We're on cleaning duty then. Better get started..."
-
+    "Actor1" "Wow...I can't deny that the guy is talented..."
+    "Actor2" "I know right? I'd hate to have to audition for the same role as him"
+    "Actor1" "Shame he's so unprofessional...I mean seriously? Bringing a rando to something like this?"
+    "Actor2" "I know right? That guy he brought along was kind of a weirdo don't you think? Did you see how he kept texting someone all throughout our set?"
+    "Actor1" "Looked pretty normal to me. Didn't really pay much attention to him. Now get on with it, we need to clean up and get out of here"
+    
     return
