@@ -130,13 +130,15 @@ label cd1_chat3():
     menu:
         "Do you even like chocolate Jumin?":
             award heart ju
-            ju "To a certain extent."
-            ju "The Belgian kind appeals to my taste buds, though I don't consume it all that often"
+            ju "Not really. Sweets never really appealed to me, even as a child" ser1
+            ju "Though I would occasionally eat some whenever V visited" 
+            ju "My maid would always bring out a platter of pure Belgian chocolate. Can't say I didn't somewhat enjoy that" square_l
             v "Even when he was a kid, he'd refuse to eat cheap chocolate."
             ju "{image=ju_smile}" (img=True)
         "Do you like chocolate V?":
             award heart v
-            v "I like it well enough"
+            v "I like it a lot. The texture always appealed to me"
+            v "Sometimes I'd even get stomach aches from eating too much" sigh_m
             v "Hot chocolate especially. My mother and I used to drink it on winter nights"
             ju "When V was a child, he'd eat any piece of chocolate he could find"
             v "{image=v_well}" (img=True)
@@ -261,6 +263,7 @@ label cd1_chat3_expired():
     ju "The owner even gave me a complimentary chocolate bar on my way out"
     ju "I like it to a certain extent."
     ju "The Belgian kind appeals to my taste buds, though I don't consume it all that often"
+    ju "Sweets aren't all that appealing to me"
     v "Even when you were a kid, you'd refuse to eat cheap chocolate"
     ju "{image=ju_smile}" (img=True)
     v "I like it well enough"
