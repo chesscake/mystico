@@ -31,7 +31,7 @@ label day_4_chatroom_3():
     menu:
         "I was just planning on chatting with you guys":
             msg ri "Oh wow, really??" round_m
-            msg ri I'm so glad you're already used to being one of us" glow
+            msg ri "I'm so glad you're already used to being one of us" glow
             ri "But please make sure to go outside and get some fresh air as well!!"
         "Maybe I should just go back to sleep...":
             ri "I understand. There's a whole day ahead of us, so no need to rush"
@@ -54,7 +54,7 @@ label day_4_chatroom_3():
             ri "Those are always fun!"
             ri "Make sure you're always taking time away from your day to spend on hobbies and other fun activities" 
             msg ri "Without them, life can get pretty dull ;;;" sigh_m
-        "Trying to find ways to improve the R.F.A"
+        "Trying to find ways to improve the R.F.A":
             award heart ri
             msg ri "My my, aren't you a hard worker?" glow
             msg ri "The fact you're already thinking about that sort of thing makes me really happy!" cloud_m
@@ -71,7 +71,7 @@ label day_4_chatroom_3():
     ri "The entrance exam has probably gotten a lot harder since I took it"
     msg y "Your score was really impressive! Can't believe you didn't end up enrolling" ser1
     ri "Hmm..I had a lot on my plate at the time, so it wasn't really a possibility"
-    msg ri "However..Thanks to that, the R.F.A came into existence ! So all is well! glow
+    msg ri "However..Thanks to that, the R.F.A came into existence ! So all is well!" glow
     ri "The day I took the exam sure was a hectic one..Wasn't nearly as sunny out as it is now"
     ri "I suppose you'd rather we switch the subject away from that though ^^;;"
     y "...yes please ;;"
@@ -119,7 +119,7 @@ label day_4_chatroom_3():
             msg ri "Thank you so much [name]! I just knew you'd be able to understand me" round_m
             msg ri "I thought I'd said something a bit strange but..." curly
             msg ri "Turns out you were on the same track as well. Isn't that amazing?" cloud_m
-        "How could you get all that from a flower?"
+        "How could you get all that from a flower?":
             ri "Simple! By observing it and seeing the way it rises above its harsh conditions"
             msg ri "But...You might be right, I am assigning a lot of human attributes to a flower" curly
             msg ri "I should've been a bit more objective about it" ser1
@@ -138,7 +138,7 @@ label day_4_chatroom_3():
             ri "Of course you didn't ! It's just that I can get sensitive about that sort of thing"
             award heart ri
             msg ri "Thank you for saying that , [name]. I really appreciate it" glow
-        "Be careful with revealing private info. I feel a bit uneasy regarding that these days"
+        "Be careful with revealing private info. I feel a bit uneasy regarding that these days":
             award heart va
             ri "I don't think that'll be an issue.."
             y "We have really good security in the messenger [name]! Don't worry about it"
@@ -186,7 +186,7 @@ label day_4_chatroom_3():
             ri "Sure is! He's at the top of his class for most subjects"
             ri "And his teachers are all very proud of him as well"
             msg ri "I can't express how happy his success makes me ^^"
-        "Hmm..I wonder how he can be useful to you.."
+        "Hmm..I wonder how he can be useful to you..":
             #Mika vibes (?)
             ri "Useful to me? What do you  mean?"
             ri "He's an amazing student and a great help to the R.F.A"
@@ -230,7 +230,7 @@ label day_4_chatroom_3_expired():
     ri "I feel like [they] [are] the type of person who'd head outside on a day like this"
     msg ri "That's a compliment, of course ^^" glow
     ri "Hmm...Now I'm curious about the other members"
-    ri I guess I'll have to wait until one of you guys shows up.."
+    ri "I guess I'll have to wait until one of you guys shows up.."
     pause 1.0*5
 
     enter chatroom y
@@ -244,7 +244,7 @@ label day_4_chatroom_3_expired():
     ri "The entrance exam has probably gotten a lot harder since I took it"
     msg y "Your score was really impressive! Can't believe you didn't end up enrolling" ser1
     ri "Hmm..I had a lot on my plate at the time, so it wasn't really a possibility"
-    msg ri "However..Thanks to that, the R.F.A came into existence ! So all is well! glow
+    msg ri "However..Thanks to that, the R.F.A came into existence ! So all is well!" glow
     ri "The day I took the exam sure was a hectic one..Wasn't nearly as sunny out as it is now"
     ri "I suppose you'd rather we switch the subject away from that though ^^;;"
     y "...yes please ;;"
