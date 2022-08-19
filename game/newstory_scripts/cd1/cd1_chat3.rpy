@@ -1,7 +1,7 @@
 label cd1_chat3():
 
-    #$ ju.cover_pic = "Cover Photos/Jumin/ju2.jpg"
-    #$ v.cover_pic = "Cover Photos/V/v2.jpg"
+    $ ju.cover_pic = "Cover Photos/Jumin/ju2.jpg"
+    $ v.cover_pic = "Cover Photos/V/v2.jpg"
 
     $ ju.status = "Wine, the most bitter remedy "
     $ v.status = "Chocolate, the sweetest poison"
@@ -130,15 +130,15 @@ label cd1_chat3():
     menu:
         "Do you even like chocolate Jumin?":
             award heart ju
-            ju "Not really. Sweets never really appealed to me, even as a child" ser1
+            msg ju "Not really. Sweets never really appealed to me, even as a child" ser1
             ju "Though I would occasionally eat some whenever V visited" 
-            ju "My maid would always bring out a platter of pure Belgian chocolate. Can't say I didn't somewhat enjoy that" square_l
+            msg ju "My maid would always bring out a platter of pure Belgian chocolate. Can't say I didn't somewhat enjoy that" square_l
             v "Even when he was a kid, he'd refuse to eat cheap chocolate."
             ju "{image=ju_smile}" (img=True)
         "Do you like chocolate V?":
             award heart v
             v "I like it a lot. The texture always appealed to me"
-            v "Sometimes I'd even get stomach aches from eating too much" sigh_m
+            msg v "Sometimes I'd even get stomach aches from eating too much" sigh_m
             v "Hot chocolate especially. My mother and I used to drink it on winter nights"
             ju "When V was a child, he'd eat any piece of chocolate he could find"
             v "{image=v_well}" (img=True)
@@ -162,7 +162,7 @@ label cd1_chat3():
     v "No clue. I like eating chocolate, but I don't really see how to improve on it."
     ju "What about you [name]?"
     menu:
-        "I have't really thought about it myself":
+        "I haven't really thought about it myself":
             ju "Do you not like chocolate then?"
             v "That could be it"
             ju "I wonder what percentage of people dislike chocolate...I should have Assistant Kang write me a report on that."
