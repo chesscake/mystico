@@ -1,5 +1,5 @@
 label cd2_chat10():
-#cups of coffee
+#Well Brewed Discussion
     $ ri.status = "Too much coffee..."
     $ ja.status = "Never enough coffee"
 
@@ -61,7 +61,7 @@ label cd2_chat10():
             award heart ja
             ri "I'll let Jaehee talk about this, she's the expert here heh"
             ja "Expert? How so?"
-            ri "You seemed to really enjoy it, that's all!" ser1
+            msg ri "You seemed to really enjoy it, that's all!" ser1
             ja "Well...in my opinion,  yes! The coffee is good "
             msg ja "The notes are subtle" glow
             msg ja "Yet there is some...bite to it" curly
@@ -312,7 +312,7 @@ label cd2_chat10_expired():
     
     ja "Expert? How so?"
     
-    ja "You just seemed to enjoy it a lot, that's all!" ser1
+    msg ja "You just seemed to enjoy it a lot, that's all!" ser1
 
     ja "In my opinion,  the coffee is amazing "
 
