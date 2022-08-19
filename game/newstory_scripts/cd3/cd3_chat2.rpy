@@ -50,7 +50,7 @@ label cd3_chat2():
     ri "Seeing them in pain is the last thing we wish to happen,"
     ri "so we should be as healthy as possible, to rid them of those sorts of concerns."
     ri "I would hate to see you guys in pain!"
-    ri "Talking about all this reminded me of something.." curly
+    msg ri "Talking about all this reminded me of something.." curly
     ri "One time, Zen got sick after a particularly exhausting play"
     ri "Both Jaehee and I were really worried about him"
     ri "Of course,"
@@ -176,7 +176,7 @@ label day_3_chatroom_2_expired():
     ri "Seeing them in pain is the last thing we wish to happen,"
     ri "so we should be as healthy as possible, to rid them of those sorts of concerns."
     ri "I would hate to see you guys in pain!"
-    ri "Talking about all this reminded me of something.." curly
+    msg ri "Talking about all this reminded me of something.." curly
     ri "One time, Zen got sick after a particularly exhausting play"
     ri "Both Jaehee and I were really worried about him"
     ri "Of course,"
