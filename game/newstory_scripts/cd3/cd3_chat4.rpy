@@ -1,5 +1,5 @@
 label cd3_chat4():
-    #source of my inspiration
+    #Musical interlude
 
     $ ri.status = "A never ending fairy tale...I'm not sure if I want to experience such a thing"
     $ ri.cover_pic = "Cover Photos/Rika/r3a.jpg"
@@ -338,7 +338,7 @@ label cd3_chat4_vn_z():
      
     scene hallway
 
-     "" "A year ago.."
+    "A year ago.."
      
     "Director" "Is everyone ready to begin?"
     "Actor1" "Where is our prince? Is he still not here? He should have been here hours ago.."
