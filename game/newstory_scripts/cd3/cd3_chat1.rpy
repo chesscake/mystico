@@ -14,13 +14,13 @@ label cd3_chat1():
 
     z "Hello there everyone!"
     msg z "...orrrrr just [name]. Lol" curly
-    z "I'm in a really good mood today" glow
+    msg z "I'm in a really good mood today" glow
     z "Just got notified of something real good!"
     menu:
         "Hi Hi Zen! What are you so excited about? Let me hear it":
             award heart z
             z "I was just about to get to that"
-            z "Thanks for the encouragment !" square_m
+            msg z "Thanks for the encouragment !" square_m
         "What's up?":
             z "You'll see ^^"
     z "Now that I've captivated my audience..."
@@ -40,7 +40,7 @@ label cd3_chat1():
             z "Can't wait to tell everyone about it"
 
     msg z "I hope that everyone will be as excited as I am lol" bold
-    z "{image=zen_oyeah}" (img=True)
+    msg z "{image=zen_oyeah}" (img=True)
     z "..."
     msg z "Gah, I can't wait any longer" curly
     z "So, everyone.."
@@ -65,18 +65,18 @@ label cd3_chat1():
             ja "So seeing you and Zen in the messenger talking was a blessing"
 
     ja "Zen, it seems like you were about to announce something.."
-    ja "{image=jaehee_wow}" (img=True)
+    msg ja "{image=jaehee_wow}" (img=True)
     msg ja "What is it?" cloud_s bold
     ja "Hope I didn't interrupt you"
     z "Actually, I'm happy that you're here"
-    z "It means one more pair of eyes on the announcement of the century" glow
-    ja "It must be something very important." ser1
+    msg z "It means one more pair of eyes on the announcement of the century" glow
+    msg ja "It must be something very important." ser1
     z "For sure!"
     ja "{image=jaehee_oops}" (img=True)
     z "...drum roll please"
-    z "I'm happy to announce that it has been a year since I Zen..." curly
-    z "Was a part of.." glow
-    z "The one" glow
+    msg z "I'm happy to announce that it has been a year since I Zen..." curly
+    msg z "Was a part of.." glow
+    msg z "The one" glow
     z "The only.."
     msg z "MAGICAL KINGDOM OF EVOLUTION MUSICAL" square_l sser2 big
     z "...also known by its full title"
@@ -89,10 +89,10 @@ label cd3_chat1():
             award heart z
             msg z "I know right?" glow big
             z "I waited for years to get a role that big"
-            z "So remembering all the excitement I felt for it brings back good memories" glow
+            msg z "So remembering all the excitement I felt for it brings back good memories" glow
         "That's it? What was all that build-up for?":
             z "It's something important to me lol"
-            z "Hope you weren't too dissapointed"
+            z "Hope you weren't too disappointed"
             z "I do this kind of thing a lot" 
         "I bet Jaehee and Rika are so excited to hear that":
             award heart ri
@@ -111,16 +111,16 @@ label cd3_chat1():
     msg ja "THE FAMOUS PRODUCTION FROM NARROWAY" square_m
     msg ja "WHERE ZEN GOT THE MAIN ROLE" square_l bold  big
     z "Glad at least someone remembered lol"
-    ja "Back then, I still wasn't a part of the R.F.A" curly
-    ja "I knew you were an amazing actor, but that opportunity" bold
-    ja "I never would have expected something like it" bold
-    z "Wow, I never  thought I'd  see you so worked up " glow
+    msg ja "Back then, I still wasn't a part of the R.F.A" curly
+    msg ja "I knew you were an amazing actor, but that opportunity" bold
+    msg ja "I never would have expected something like it" bold
+    msg z "Wow, I never  thought I'd  see you so worked up " glow
     menu:
         "You didn't know? Jaehee is a huge fan of yours!":
             award heart ja
             z "I always knew she followed my productions closely..."
             z "But I just assumed she was showing interest in them to be polite"
-            ja "I'll have to be more vocal about it then." bold
+            msg ja "I'll have to be more vocal about it then." bold
             msg ja"I find your acting to be out of this world Zen!!!" cloud_l bold
         "I don't get why she's so excited. It's just a dumb play":
             msg ja "I'm a huge fan of musicals and theather in general" ser1
@@ -154,7 +154,7 @@ label cd3_chat1():
     z "Those will only enter circulation later"
     z "since it's such a famous production"
     z "But I wouldn't worry too much about that.."
-    z "I've got a suprise in store for you guys!"
+    z "I've got a surprise in store for you guys!"
     msg ja "What is it ?" glow big bold
     msg z "Shhhh." cloud_s blocky
     z "I'm keeping it a suprise for a reason!"
@@ -169,7 +169,7 @@ label cd3_chat1():
     menu:
         "I have no idea! Maybe he got you guys tickets to the play?":
             award heart ri
-            ja "{image=jaehee_wow}" (img=True)
+            msg ja "{image=jaehee_wow}" (img=True)
             award heart ja
             msg ja "You think?" big bold glow
             msg ja "That would be such a huge honour.." square_l ser2 bold
@@ -213,7 +213,7 @@ label cd3_chat1():
     ja "Since I'll be rewatching the DVD from last years production"
     ja "But I guess I'll have to,"
     ja "since I have work tommorow as well.."
-    ja "{image=jaehee_huff}" (img=True)
+    msg ja "{image=jaehee_huff}" (img=True)
 
     menu:
         "Good night Jaehee! Hope you can get to see the musical again sometime soon!":
@@ -246,13 +246,13 @@ label cd3_chat1_expired():
 
     z "Hello there everyone!"
     msg z "...orrrrr no one. Lol" curly
-    z "I'm in a really good mood today" glow
+    msg z "I'm in a really good mood today" glow
     z "Just got notified of something real good!"
     z "..."
     z "...maybe I should wait until more people show up"
     msg z "This is BIG...really big" big bold glow
     msg z "I hope that everyone will be as excited as I am lol" bold
-    z "{image=zen_oyeah}" (img=True)
+    msg z "{image=zen_oyeah}" (img=True)
     z "..."
     msg z "Gah, I can't wait any longer" curly
     z "So, everyone.."
@@ -261,14 +261,14 @@ label cd3_chat1_expired():
     enter chatroom ja
     
     ja "Zen, it seems like you were about to announce something.."
-    ja "{image=jaehee_wow}" (img=True)
+    msg ja "{image=jaehee_wow}" (img=True)
     msg ja "What is it?" cloud_s bold
     ja "Hope I didn't interrupt you"
     z "Actually, I'm happy that you're here"
-    z "It means there is at least one pair of eyes on the announcement of the century" glow
-    ja "It must be something very important." ser1
+    msg z "It means there is at least one pair of eyes on the announcement of the century" glow
+    msg ja "It must be something very important." ser1
     z "For sure!"
-    ja "{image=jaehee_oops}" (img=True)
+    msg ja "{image=jaehee_oops}" (img=True)
     z "...drum roll please"
     msg z "I'm happy to announce that it has been a year since I Zen..." curly
     msg z "Was a part of.." glow
@@ -290,17 +290,17 @@ label cd3_chat1_expired():
     msg ja "THE FAMOUS PRODUCTION FROM NARROWAY" square_m
     msg ja "WHERE ZEN GOT THE MAIN ROLE" square_l bold  big
     z "Glad at least someone remembered lol"
-    ja "Back then, I still wasn't a part of the R.F.A" curly
-    ja "I knew you were an amazing actor, but that opportunity" bold
-    ja "I never would have expected something like it" bold
-    z "Wow, I never  thought I'd  see you so worked up " glow
+    msg ja "Back then, I still wasn't a part of the R.F.A" curly
+    msg ja "I knew you were an amazing actor, but that opportunity" bold
+    msg ja "I never would have expected something like it" bold
+    msg z "Wow, I never  thought I'd  see you so worked up " glow
     msg ja "Really? Mayve I should consider being more open in the messenger then.." ser2
     msg ja "If Mr. Han allows it, of course" curly
     ja "But to answer your question from before..."
     msg ja "I am okay!!" cloud_m
     ja "Just actively searching for a way to acquire tickets to see that show! of yours!"
     msg ja "...I almost spilled my cup of water.." curly
-    ja "{image=jaehee_sad}" (img=True)
+    msg ja "{image=jaehee_sad}" (img=True)
     msg ja "I have to protect these documents" curly sigh_m
     msg z "I'm glad to see you like this every once in a while lolol" glow bold
     ja "It's good to get excited,"
@@ -352,7 +352,7 @@ label cd3_chat1_expired():
     ja "Since I'll be rewatching the DVD from last years production"
     ja "But I guess I'll have to,"
     ja "since I have work tommorow as well.."
-    ja "{image=jaehee_huff}" (img=True)
+    nsg ja "{image=jaehee_huff}" (img=True)
     ja "I can't help but think of that suprise Zen mentioned."
     ja "I wonder what it could be..."
     ja "Well then..It seems I truly have to leave now."
