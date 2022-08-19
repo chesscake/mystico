@@ -352,7 +352,7 @@ label cd3_chat1_expired():
     ja "Since I'll be rewatching the DVD from last years production"
     ja "But I guess I'll have to,"
     ja "since I have work tommorow as well.."
-    nsg ja "{image=jaehee_huff}" (img=True)
+    msg ja "{image=jaehee_huff}" (img=True)
     ja "I can't help but think of that suprise Zen mentioned."
     ja "I wonder what it could be..."
     ja "Well then..It seems I truly have to leave now."
