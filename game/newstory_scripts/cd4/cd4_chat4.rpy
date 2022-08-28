@@ -27,7 +27,7 @@ label cd4_chat4():
     msg ju "Such an exam shouldn't last longer than an hour" glow
     msg ju "That's how long it took me anyway"
     menu:
-        "That sounds scary...Not all of us are robots like you Jumin":
+        "Not all of us are robots like you Jumin":
             msg ju "Robots? You must be thinking of assistant Kang" square_m
             ju "I am no robot - my suggestion would greatly improve efficiency" 
             msg ju "Maybe I should talk about it to the minister of education over lunch" glow
@@ -284,14 +284,14 @@ label cd4_chat4_vn_ri():
     hide v 
     scene bg black with fade
     show rika dark at vn_center 
-    ri "...you cannot stop behaving like a broken record"
+    ri "...you cannot seem to stop behaving like a broken record."
     play music mysterious_clues_v2
     scene bg v_home with fade
     show rika  dark at vn_right
     show v side surprised at vn_left
     v "Rika..? "
     ri "You heard me right V. All you've been doing these past few days is repeating yourself and hoping I'll be dumb enough to believe you"
-    ri "And why wouldn't you believe that? I've already been done that exact thing before. But I know better now"
+    ri "And why wouldn't you ? I've already  done that exact thing before. But I know better now"
     ri "I know what hides behind your words..You won't take me away this time"
     v neutral "....You're not well Rika. I am simply trying to get you to realize that before you end up hurting someone"
     v "If your outbursts continue...God knows what you'll be capable of"
