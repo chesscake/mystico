@@ -308,7 +308,7 @@ label cd4_chat4_vn_ri():
     ri crazy "De..delusional? You think my ideas are pure delusion?"
     ri dark "Ha..figures you'd say that. Of course. I am delusional. And you..you're the rational one."
     ri "The man who insists on calling himself the Sun and sacrificing himself onto me believes he is the normal one. "
-    ri happy ".....that's  just too funny, I'm about to burst into crying"
+    ri happy ".....that's  just too funny, I'm almost crying"
     ri "Well then. I guess you'll have your delusions and I'll have mine. I'm tired of this pointless conversation."
     stop music
     v "Rika you can't-"
@@ -319,7 +319,7 @@ label cd4_chat4_vn_ri():
     show rika thinking at vn_center 
     play music mint_eye_piano
     ri thinking "V is a weird man...the things he says are in opposition to his actions"
-    ri "I did the right thing by  just now. But...something isn't right.."
+    ri "I did the right thing by leaving just now. But...something isn't right.."
     ri "Was he right? Am I a delusional girl filled with nothing but darkness?"
     ri "Am I destined to fail, and sink deeper into my trauma? And if I am then...."
     ri sob "...Why am I yet living today?"
