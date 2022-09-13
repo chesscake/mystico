@@ -85,7 +85,7 @@ label branches_of_destiny_vn ():
 
 
     label vn_rievent ():
-    $current_timeline_item.who = 'ri'
+       $current_timeline_item.who = 'ri'
     ri "Alright then...since you were gracious enough to accept, I'll be the one driving you there!"
     ri "Give me a minute to get my car started , and I'll be there in a flash!"
     ri "See you soon!!!"
@@ -98,6 +98,7 @@ label branches_of_destiny_vn ():
     "   " "Half an hour later..."
     scene bg mc_room with fade
     play sound door_knock_sfx
+    hide ri
     ri "Hello [name]! It's me! Hope I didn't startle you"
     play sound door_open_sfx
     show rika smile at vn_center 
@@ -151,13 +152,13 @@ label branches_of_destiny_vn ():
             ri "Well, I haven't thought about that yet"
             ri "It shouldn't take too long, as I just need to pick some things up from the main building"
             ri "I hope this doesn't disturb your schedule too much..."
-    "   " "As the conversation progressed, the scenery changed. Soon, you found yourselves in front of a quaint cathedral in the middle of nowhere"
+    "   " "As the conversation progressed, the scenery changed."
+    "   " " Soon, you found yourselves in front of a quaint cathedral in the middle of nowhere"
     ri happy "Oh my..I kind of got lost in our conversation...I can't believe we're already here!"
     ri "Would you look at that? All the children are here...Come on, lets head out"
     stop music
     hide rika
     scene bg cathedral with fade
-    pause
     play music same_old_fresh_air
     "Child 1" "Hey, everyone, she's here!! Rika the angel is here!!"
     "Child 2" "Are those sweets?? Can I have some??"
@@ -166,7 +167,6 @@ label branches_of_destiny_vn ():
     show rika happy at vn_center
     ri "Calm down everyone! There are enough sweets to go around!"
     hide ri
-    pause
     ri worried "I also brought along a dear friend of mine to help me! So please, no more fighting."
     "   " "And with that, Rika managed to stop the fighting."
     "   " "More and more kids kept arriving. At one point, it seemed like they would overwhelm you , but Rika managed to keep the peace."
@@ -185,9 +185,7 @@ label branches_of_destiny_vn ():
     ri "I'm so glad you were here to help me..I think all the kids really liked you."
     ri sad "You looked just like a fairy while you were handing out candy"
     award heart ri
-    pause
     ri thinking "Oh my...I'm sorry if I made you uncomfortable with that"
-    stop music
     menu:
         extend ' '
         "You didn't make me uncomfortable at all!":
@@ -224,20 +222,92 @@ label branches_of_destiny_vn ():
     ri "Yes, I'll go ahead and pick them up then...Do you mind waiting for me here [name]?"
     "Sister Agatha" "Oh, I'm sure it's fine. I'll be here with [them] and keep [them] company."
     ri "All right...I'll be back  very soon!"
-    hide rika with easeoutright
+    hide rika with easeoutleft
     "Sister Agatha" "That child is too good for her own good. I'm worried about her sometimes."
     "Sister Agatha" "Since you two seem pretty close, please make sure she stays out of trouble, alright?"
+    menu:
+        extend ' '
+        "I wish I could get closer to her...":
+            award heart ri
+            "Sister Agatha" "I don't think you need to worry about that. Rika is deeply compassionate, but she doesn't let people into her life easily."
+            "Sister Agatha" "The fact she brought you here is proof of how much she trusts you."
+            "Sister Agatha" "So just keep doing whatever it is made you two friends in the first place."
+        "Trouble? What do you mean?":
+            "Sister Agatha" "Oh, you know....the types of trouble a young girl her age can get into."
+            "Sister Agatha" "She's a real angel alright, but there are bad people in this world who could exploit that."
+            "Sister Agatha" "She never said too much about her past life, but I have a feeling that child suffered greatly in the past."
+    "Sister Agatha" "For now, I think the best thing for her would be having a friend to help her out."
+    "Sister Agatha" "If she decides to visit the place where her sorrows lie...make sure you're at her side"
     show rika neutral at vn_center with ease
-    ri "Alright...I think I got everything...Thank you so much for Sister!"
+    ri "Look at you two, already striking up a conversation!"
+    "Sister Agatha" "Yes, I'm glad to have had a chat with your new friend. It seems like you made the right choice when you brought [them] here"
+    ri happy "I'm so glad you think that! [name] here has been very helpful for the past few days"
+    ri "I think I got everything I needed! Thank you so much for helping me with this Sister!"
     "Sister Agatha" "Of course child...It's the least I could do for you."
-    stop music
-    #Possible grieving scene here ?
-    ri "I think we're done here for now..."
-    ri "Come on, let's head on home..."
+    "Sister Agatha" "For now, I think I'll go and tend to the children. Don't let us become strangers dear. Goodbye!"
+    ri thinking "Say... [name], would you mind it if we stuck around a bit longer ?"
+    ri "I think I have something I want to show you..."
+    "   " "Just as you were about to follow her, you see a strange red-headed man approaching from a distance"
+    show rika neutral 
+    "   " "With a glance at Rika, the man turns around and walks away..."
+    menu:
+        extend ' '
+        "Who was that?":
+            ri thinking "Ah, it was just one of the cathedral's wards..."
+            ri "He must have changed his mind about approaching us once he saw you with me."
+            ri "I should introduce you two someday...he gets along with the people here, but doesn't take kindly to strangers."
+    ri "Now where were we?"
+    ri neutral "Ah yes...I wanted to show you something..."
+    ri "You see [name], this place doesn't just house my happy memories..."
+    ri "It is also the place where the ashes of my heart lie..."
+    ri thinking "Ah, I guess I should explain myself. Maybe I'd be better if I just showed you directly."
     hide rika
-    scene bg car wit fade
-    "   " "As you were leaving the premises, you could swear you saw a dark, hunched over figure in the cathedrals orchard, disappearing as soon as you tried to get a better look"
-    "   " "The rumbling of the motor interrupted your train of thought, as Rika started the trek back home..,"
+    show bg sally_grave with fade
+    pause
+    ri "This... is the final resting place of my dog, Sally."
+    play music suns_love_piano
+    ri "This is where she ended up because of my mistakes."
+    ri "Because I couldn't be a responsible owner,"
+    ri "Because I was dumb enough to think she'd always be by my side."
+    ri "Even after she lost vision and after I refused to get her treated for it."
+    ri "I thought I was able to go against the world, who told me that she'd be better of dead than to live with such a horrible condition."
+    ri "And I was punished for it by her not being able to take it anymore, and running into oncoming traffic."
+    ri "With her lost...I really didn't know what to do.."
+    ri "Even now, as I stand here..I'm still just as lost.."
+    ri "I'm sorry Sally...for giving up on you...for thinking I could ever go against the world..."
+    menu:
+        extend  ' '
+        "Rika...":
+            award heart ri
+            ri "If only I could turn back time and see you one final time..."
+            ri "Sally...my friend Sally..."
+    ri "How could I abandon you?"
+    menu:
+        extend ' '
+        "I'm sure it wasn't your fault..You couldn't have known.":
+            award heart ri
+            ri "I felt like we understood each other perfectly..."
+            ri "But it seems like all I did was project my feelings onto her"
+    ri "....."
+    ri "Argh...I'm so sorry [name]...I shouldn't have  burdened you like this"
+    ri "It seems like I can't stop making mistakes, no matter what I do.."
+    ri "One day, I'll end up hurting others too...I'm so scared..."
+    ro "What if I lose someone close to me again? What If..."
+    menu: 
+        extend ' '
+        "*Hold her hand*":
+            award heart ri
+            "   " "She holds your hand tight, as her shaking subsides..."
+            ri "...."
+    scene bg cathedral with fade
+    ri "Thank you [name]...I really appreciate you doing that, you know that?"
+    ri "I'll....I'll be fine...Please, don't tell the R.F.A members about this.."
+    ri "Seems like I have a lot to think about today.."
+    ri "We're done here for now..."
+    ri "Come on, let's head on home..."
+    scene bg car with fade
+    "   " "On your way back, you  see a dark, figure in the cathedrals shadow, watching you from afar...."
+    "   " "Before you can say anything, the rumbling of the motor interrupts your train of thought, as Rika starts the trek back home..."
     return
 
 
