@@ -49,10 +49,10 @@ label cd2_chat5():
         "Fruity tea!":
             award heart y
             ju "Fruit tea would be Yoosungs favorite."
-            ju "The brochure said that fruity teas can often help with your mood, has plenty of vitamins and is full of antioxidants."
+            ju "The brochure said that fruity teas can often help with your mood, have plenty of vitamins and are full of antioxidants."
         "Roiboos tea!":
             award heart va
-            ju "Finally, there is roiboos tea. I don't know anyone who favors that one."
+            ju "I don't know anyone who favors that one."
             ju "The brochure said  that roiboos can prevent diabetes,  has an effect on heart disease and may also lower the chance of cancer "
     ju "Regardless, there was something there to suit anyone's interests."
     ju "Personally , I enjoyed walking around through the tea shop part the most "
@@ -158,7 +158,6 @@ label cd2_chat5_expired():
     ju "What kinds of tea would [name] prefer? "
     ju "My personal favorite is green tea"
     msg ju "There is something regal about it that appeals to me" square_m
-    ju "Regardless, there was something there to suit anyone's interests."
     ju "Personally , I enjoyed walking around through the tea shop part the most "
     ju "Their business strategy is amazing . Perhaps it's something we should implement at C&R."
     ju "They entice you with the promise of tra all throughout the museum, then have a tea store waiting for you at the end . "
@@ -233,8 +232,8 @@ label reply_tea:
     ri "I hope the two of us can grow closer!"
 
     return
-_chat5():
-    #tart of tea
+label cd2_chat5_expired():
+    #art of tea
 
     $ ju.status = "Tea purifies the soul"
 
