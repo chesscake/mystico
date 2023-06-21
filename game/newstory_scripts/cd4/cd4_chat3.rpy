@@ -125,22 +125,20 @@ label day_4_chatroom_3():
             msg ri "I should've been a bit more objective about it" ser1
     y "Sorry for not saying anything."
     y "I just wasn't really able to understand what you were getting at"
-    msg y "You sounded very serious. I was kind of taken aback" ser1
+    msg y "You sounded very serious. I wasn't expecting that so early in the morning" ser1
     ri "Oh...Is that so?"
     ri "Ah, I said I'd be more careful about saying stuff like that in the chatroom earlier and yet"
-    msg ri "Seems like I messed up again.." ser2
-    y "I didn't want to comment on that but...it WAS very unlike you"
-    y "But don't worry, you didn't mess up or anything"
+    msg ri "Seems like I messed up again.." ser1
+    y "Don't worry, you didn't mess up or anything"
     msg y "Just didn't seem like the you I know" bold
     menu:
-        "Hey now..Rika should be able to express herself any way she wishes":
+        "Rika should be able to express herself any way she wishes":
             y "I never said she couldn't..."
             ri "Of course you didn't ! It's just that I can get sensitive about that sort of thing"
             award heart ri
             msg ri "Thank you for saying that , [name]. I really appreciate it" glow
-        "Be careful with revealing private info. I feel a bit uneasy regarding that these days":
-            award heart va
-            ri "I don't think that'll be an issue.."
+        "Is it okay to talk about private stuff in here?":
+            ri "I don't think that's the an issue.."
             y "We have really good security in the messenger [name]! Don't worry about it"
             msg ri "I'll be more careful from now on though.." curly
     ri "Regardless...I did break my promise to be more positive here"
@@ -186,11 +184,11 @@ label day_4_chatroom_3():
             ri "Sure is! He's at the top of his class for most subjects"
             ri "And his teachers are all very proud of him as well"
             msg ri "I can't express how happy his success makes me ^^"
-        "Hmm..I wonder how he can be useful to you..":
+        "Could he use his skills for something other than school?":
             #Mika vibes (?)
-            ri "Useful to me? What do you  mean?"
+            ri "For something else? What do you  mean?"
             ri "He's an amazing student and a great help to the R.F.A"
-            ri "Most things he does are useful but...it's not the wording I would use"
+            ri "I'm sure he can apply that work ethic to other things in life though"
     ri "I'm sure he'll return with good news later on in the day"
     ri "For now...everyone, please cheer for Yoosung's success! He's sure to make us proud"
     msg ri "And with that...I should take my leave!" ser2
@@ -255,7 +253,7 @@ label day_4_chatroom_3_expired():
     msg ri "That sounds beautiful.." glow
     y "Yeah, it was. You'd probably appreciate it more. I know how much you like plants"
     ri " Oh yes! But back when I started out, my first plants always looked a bit sad and droopy"
-    y "Now you're a real green-thumb All the photos you send of them look really good "
+    y "Now you're a real green-thumb. All the photos you send of them look really good "
     y " Me however...I prefer animals to plants."
     msg ri "I think both are equally as important and beautiful! " glow
     ri "A world without one or the other doesn't sound too good..."
@@ -281,8 +279,7 @@ label day_4_chatroom_3_expired():
     ri "Oh...Is that so?"
     ri "Ah, I said I'd be more careful about saying stuff like that in the chatroom earlier and yet"
     msg ri "Seems like I messed up again.." ser2
-    y "I didn't want to comment on that but...it WAS very unlike you"
-    y "But don't worry, you didn't mess up or anything"
+    msg y "You didn't mess up!" spiky_small 
     msg y "Just didn't seem like the you I know" bold
     ri "....I guess I did break my promise to be more positive here"
     y "It doesn't matter Rika! We all know how bright and positive you always are"
